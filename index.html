@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="images/Group5.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kmf</title>
+  <script type="module" crossorigin="" src="js/index.js"></script>
+  <link rel="stylesheet" crossorigin="" href="css/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header--static">
+      <img src="images/hd-logo-1.svg" alt="лого">
+      <div class="cont_select_center">
+
+        <!-- Custom select structure -->
+        <div class="select_mate" data-mate-select="active">
+          <select name="" onchange="" onclick="return false;" id="">
+            <option value="1">Рус</option>
+            <option value="2">Каз</option>
+          </select>
+          <p class="selecionado_opcion" onclick="open_select(this)"></p><span onclick="open_select(this)"
+            class="icon_select_mate"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z" />
+              <path d="M0-.75h24v24H0z" fill="none" />
+            </svg></span>
+          <div class="cont_list_select_mate">
+            <ul class="cont_select_int"> </ul>
+          </div>
+        </div>
+        <!-- Custom select structure -->
+
+
+      </div> <!-- End div center   -->
+    </div>
+    <nav class="nav">
+      <ul class="nav--list">
+        <li class="nav--tab">О портале</li>
+        <li class="nav--tab">Бизнес</li>
+        <li class="nav--tab">Обучение</li>
+        <li class="nav--tab">Забота о себе</li>
+        <li class="nav--tab nav--tab_active">Премия KMF Isker hanymy</li>
+        <li>
+          <img src="images/hd-logo-2.svg" alt="лого">
+        </li>
+      </ul>
+
+      <div class="new-select__list slideUp">
+        <div class="new-select__item">
+          <span class="new-select__item_title">О портале</span>
+        </div>
+        <div class="new-select__item">
+          <span><a href="#">Продукты КМФ<img src="images/chevron-right.png" alt="readMore"></a></span>
+        </div>
+        <div class="new-select__item">
+          <span><a href="#">Новости / Анонсы<img src="images/chevron-right.png" alt="readMore"></a></span>
+        </div>
+        <div class="new-select__item">
+          <span><a href="#">О программе KMF Isker Hanymy<img src="images/chevron-right.png" alt="readMore"></a></span>
+        </div>
+        <div class="new-select__item">
+          <span><a href="#">Истории успеха<img src="images/chevron-right.png" alt="readMore"></a></span>
+        </div>
+      </div>
+    </nav>
+    <button class="btn-nav">
+      <div class="btn-nav_static btn-nav_open"></div>
+    </button>
+  </header>
+  <main class="wrapper">
+    <section class="ideas">
+      <div class="ideas--left flex">
+        <div class="ideas--left-container flex">
+          <div class="ideas--content flex">
+            <div class="ideas--text flex">
+              <h1>
+                KMF <br>
+                и Фонд KMF-Демеу
+              </h1>
+              <p>Для нас важно поддерживать социальное предпринимательство</p>
+            </div>
+            <a class="btn btn_big" href="#">Подробнее</a>
+          </div>
+          <div class="slider--btns ideas--slider-btns">
+            <button class="swiper-button-prev slider--button ideas--slider-btn slider--button-prev slider--button_lignt"
+              type="button"></button>
+            <button class="swiper-button-next slider--button ideas--slider-btn slider--button-next slider--button_lignt"
+              type="button"></button>
+            <div class="swiper-pagination slider__pagination ideas--slider-pag"></div>
+          </div>
+        </div>
+      </div>
+      <div class="ideas---right ideas--slider">
+        <div class="swiper swiper-slider">
+          <div class="swiper-wrapper swiper-slider">
+            <div class="swiper-slide swiper-slider--slide swiper-slider--slide-1"></div>
+            <div class="swiper-slide swiper-slider--slide swiper-slider--slide-2"></div>
+            <div class="swiper-slide swiper-slider--slide swiper-slider--slide-3"></div>
+            <div class="swiper-slide swiper-slider--slide swiper-slider--slide-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="actions flex">
+      <h2 class="text-gradient">
+        Друзья! <br>Представляем Вашему вниманию портал KMF Isker hanymy –
+        платформу для получения актуальной и полезной информации для Вас и
+        Вашего бизнеса
+      </h2>
+      <a class="btn btn_big" href="#">О программе</a>
+    </section>
+    <section class="history">
+      <div class="history--left flex">
+        <div class="history--left-container flex">
+          <div class="history--left-up flex">
+            <div class="history--left-text flex">
+              <h4 class="text-gradient">Истории успеха</h4>
+              <h3>Алимбекова Бакыт - Салон эксклюзивных шляп "Elegant"</h3>
+            </div>
+            <img class="history--left-img" src="images/history.png" alt="фото">
+          </div>
+          <div class="history--left-down flex">
+            <p>
+              Салон эксклюзивных шляп Elegant работает на казахстанском рынке
+              с 1999 года. Бизнес основала Алимбекова Бакыт Калиевна и ее
+              коллеги по цеху. Компания выпускает шляпы, головные уборы для
+              силовых структур, и с недавних времен дизайнерскую верхнюю
+              одежду.
+            </p>
+            <p>
+              Мы побывали в гостях в салоне Elegant и узнали о том, как
+              происходит создание и сборка индивидуальных шляп, с какими
+              трудностями столкнулась компания в 2020 году и что она планирует
+              на ближайшее будущее.
+            </p>
+            <a class="btn btn_small" href="#">Читать интервью</a>
+          </div>
+        </div>
+      </div>
+      <div class="history--right">
+        <img src="images/history.png" alt="фото">
+      </div>
+    </section>
+    <section class="principles">
+      <div class="business principles-container">
+        <h3 class="text-gradient title_main">Бизнес</h3>
+        <div class="business--slider">
+          <div class="swiper swiper-slider">
+            <div class="swiper-wrapper swiper-slider">
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-1">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-1.png" alt="фото">
+                  </div>
+                  <div class="business--slider-card-info flex">
+                    <h4>Услуги для автомобилей "Lux-service"</h4>
+                    <p><span>Тараз, Абая 291</span></p>
+                    <p>
+                      Ателье для автомобилей "Lux-service" предоставляют пошив
+                      чехлов, перетяжка салона, EVA полики и шумоизоляцию.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-2">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-2.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Агробизнес - животноводство, пчеловодство</h4>
+                    <p><span>с. Лепси, Алматинская область</span></p>
+                    <p>
+                      Смешанное сельское хозяйство - бизнес, который
+                      занимается выращиванием растений (растениеводство) и
+                      разведением животных
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-3">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-3.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Семейная столовая "Мерей" "</h4>
+                    <p><span>Сарканд, Толе би 15/2</span></p>
+                    <p>
+                      В столовой "Мерей" можно насладиться вкуснейшим
+                      завтраком или сытным обедом, недорогим полдником и
+                      заботливо приготовленным ужином. Рядом...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-4">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-1.png" alt="фото">
+                  </div>
+                  <div class="business--slider-card-info flex">
+                    <h4>Услуги для автомобилей "Lux-service"</h4>
+                    <p><span>Тараз, Абая 291</span></p>
+                    <p>
+                      Ателье для автомобилей "Lux-service" предоставляют пошив
+                      чехлов, перетяжка салона, EVA полики и шумоизоляцию.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-5">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-2.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Агробизнес - животноводство, пчеловодство</h4>
+                    <p><span>с. Лепси, Алматинская область</span></p>
+                    <p>
+                      Смешанное сельское хозяйство - бизнес, который
+                      занимается выращиванием растений (растениеводство) и
+                      разведением животных
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-7">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-3.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Семейная столовая "Мерей" "</h4>
+                    <p><span>Сарканд, Толе би 15/2</span></p>
+                    <p>
+                      В столовой "Мерей" можно насладиться вкуснейшим
+                      завтраком или сытным обедом, недорогим полдником и
+                      заботливо приготовленным ужином. Рядом...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-1">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-1.png" alt="фото">
+                  </div>
+                  <div class="business--slider-card-info flex">
+                    <h4>Услуги для автомобилей "Lux-service"</h4>
+                    <p><span>Тараз, Абая 291</span></p>
+                    <p>
+                      Ателье для автомобилей "Lux-service" предоставляют пошив
+                      чехлов, перетяжка салона, EVA полики и шумоизоляцию.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-8">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-2.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Агробизнес - животноводство, пчеловодство</h4>
+                    <p><span>с. Лепси, Алматинская область</span></p>
+                    <p>
+                      Смешанное сельское хозяйство - бизнес, который
+                      занимается выращиванием растений (растениеводство) и
+                      разведением животных
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-9">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-3.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Семейная столовая "Мерей" "</h4>
+                    <p><span>Сарканд, Толе би 15/2</span></p>
+                    <p>
+                      В столовой "Мерей" можно насладиться вкуснейшим
+                      завтраком или сытным обедом, недорогим полдником и
+                      заботливо приготовленным ужином. Рядом...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-10">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-1.png" alt="фото">
+                  </div>
+                  <div class="business--slider-card-info flex">
+                    <h4>Услуги для автомобилей "Lux-service"</h4>
+                    <p><span>Тараз, Абая 291</span></p>
+                    <p>
+                      Ателье для автомобилей "Lux-service" предоставляют пошив
+                      чехлов, перетяжка салона, EVA полики и шумоизоляцию.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-11">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-2.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Агробизнес - животноводство, пчеловодство</h4>
+                    <p><span>с. Лепси, Алматинская область</span></p>
+                    <p>
+                      Смешанное сельское хозяйство - бизнес, который
+                      занимается выращиванием растений (растениеводство) и
+                      разведением животных
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slider--slide swiper-slider--slide-12">
+                <div class="business--slider-card flex">
+                  <div class="business--slider-card-picture">
+                    <a class="business--slider-card-link" href="#">Подробнее</a>
+                    <img src="images/slide-b-3.png" alt="фото">
+                  </div>
+
+                  <div class="business--slider-card-info flex">
+                    <h4>Семейная столовая "Мерей" "</h4>
+                    <p><span>Сарканд, Толе би 15/2</span></p>
+                    <p>
+                      В столовой "Мерей" можно насладиться вкуснейшим
+                      завтраком или сытным обедом, недорогим полдником и
+                      заботливо приготовленным ужином. Рядом...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider--btns business--slider-btns">
+              <button
+                class="swiper-button-prev slider--button business--slider-btn slider--button-prev slider--button_dark"
+                type="button"></button>
+              <div class="swiper-pagination slider__pagination business--slider-pag"></div>
+              <button
+                class="swiper-button-next slider--button business--slider-btn slider--button-next slider--button_dark"
+                type="button"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="study principles-container">
+        <h3 class="text-gradient title_main">Обучение</h3>
+        <div class="mobile-slider">
+          <div class="swiper">
+            <div class="swiper-wrapper study--list">
+              <div class="swiper-slide">
+                <div class="study--list-card flex">
+                  <div class="study--list-text flex">
+                    <h5 class="text-gradient">
+                      Как создать и продвигать бизнес аккаунт в Instagram
+                    </h5>
+                  </div>
+                  <a class="btn btn_small" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="study--list-card flex">
+                  <div class="study--list-text flex">
+                    <h5 class="text-gradient">
+                      Что лучше выбрать – ИП или ТОО
+                    </h5>
+                    <p>
+                      Рабиям Серикбаева, аудитор FinEx Audit Company.
+                      Налоговый консультант, DipIFR ACCA, юрист
+                    </p>
+                  </div>
+                  <a class="btn btn_small" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="study--list-card flex">
+                  <div class="study--list-text flex">
+                    <h5 class="text-gradient">
+                      Домашний бюджет и планирование
+                    </h5>
+                    <p>
+                      В этом уроке Вы узнаете, как правильно управлять
+                      домашним бюджетом и ставить финансовые цели.
+                    </p>
+                  </div>
+                  <a class="btn btn_small" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news principles-container">
+        <h3 class="text-gradient title_main">Новости и анонсы</h3>
+        <div class="mobile-slider">
+          <div class="swiper">
+            <div class="swiper-wrapper news--list">
+              <div class="swiper-slide">
+                <div class="news--list-card news--list-card_1 flex">
+                  <a href="#">Результаты премии "KMF Isker hanymy 2021" ("Бизнес-леди
+                    KMF 2021")</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="news--list-card news--list-card_2 flex">
+                  <a href="#">Международный женский форум</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="news--list-card news--list-card_3 flex">
+                  <a href="#">Образовательная программа «Мама-предприниматель»</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="news--list-card news--list-card_4 flex">
+                  <a href="#">Международное совещание Женского форума</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer--left flex">
+        <div class="footer--left-up flex">
+          <img class="footer--left-up-logo_1" src="images/f-logo-1.svg" alt="лого">
+          <img class="footer--left-up-logo_2" src="images/f-logo-2.svg" alt="лого">
+        </div>
+        <div class="footer--left-down flex">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M13.8528%202.50329L11.854%202.5C9.60842%202.5%208.15723%204.02942%208.15723%206.3966V8.1932H6.14754C5.97388%208.1932%205.83325%208.33782%205.83325%208.51621V11.1193C5.83325%2011.2977%205.97404%2011.4421%206.14754%2011.4421H8.15723V18.0105C8.15723%2018.1889%208.29786%2018.3333%208.47152%2018.3333H11.0936C11.2673%2018.3333%2011.4079%2018.1887%2011.4079%2018.0105V11.4421H13.7577C13.9313%2011.4421%2014.072%2011.2977%2014.072%2011.1193L14.0729%208.51621C14.0729%208.43056%2014.0397%208.34853%2013.9809%208.28791C13.922%208.2273%2013.8419%208.1932%2013.7585%208.1932H11.4079V6.6702C11.4079%205.93819%2011.5777%205.56658%2012.506%205.56658L13.8525%205.56609C14.026%205.56609%2014.1666%205.42147%2014.1666%205.24324V2.82614C14.1666%202.64808%2014.0261%202.50362%2013.8528%202.50329Z'%20fill='%239D097C'/%3e%3c/svg%3e"
+            alt="facebook">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.38574%2011.5719L8.13761%2015.0619C8.49261%2015.0619%208.64636%2014.9094%208.83074%2014.7262L10.4951%2013.1356L13.9439%2015.6612C14.5764%2016.0137%2015.022%2015.8281%2015.1926%2015.0794L17.4564%204.47187L17.457%204.47125C17.6576%203.53625%2017.1189%203.17062%2016.5026%203.4L3.19636%208.49437C2.28824%208.84687%202.30199%209.35312%203.04199%209.58249L6.44386%2010.6406L14.3457%205.69625C14.7176%205.45%2015.0557%205.58625%2014.7776%205.8325L8.38574%2011.5719Z'%20fill='%239D097C'/%3e%3c/svg%3e"
+            alt="telegram">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M2.91675%209.99984C2.91675%208.52799%202.91675%207.79207%203.05673%207.18353C3.52884%205.13118%205.13142%203.5286%207.18377%203.05649C7.79231%202.9165%208.52824%202.9165%2010.0001%202.9165C11.4719%202.9165%2012.2079%202.9165%2012.8164%203.05649C14.8687%203.5286%2016.4713%205.13118%2016.9434%207.18353C17.0834%207.79207%2017.0834%208.52799%2017.0834%209.99984C17.0834%2011.4717%2017.0834%2012.2076%2016.9434%2012.8161C16.4713%2014.8685%2014.8687%2016.4711%2012.8164%2016.9432C12.2079%2017.0832%2011.4719%2017.0832%2010.0001%2017.0832C8.52824%2017.0832%207.79231%2017.0832%207.18377%2016.9432C5.13142%2016.4711%203.52884%2014.8685%203.05673%2012.8161C2.91675%2012.2076%202.91675%2011.4717%202.91675%209.99984ZM10.0001%206.24984C7.92914%206.24984%206.25008%207.9289%206.25008%209.99984C6.25008%2012.0708%207.92914%2013.7498%2010.0001%2013.7498C12.071%2013.7498%2013.7501%2012.0708%2013.7501%209.99984C13.7501%207.9289%2012.071%206.24984%2010.0001%206.24984ZM10.0001%2012.3436C8.70821%2012.3436%207.65633%2011.2917%207.65633%209.99984C7.65633%208.70702%208.70821%207.65609%2010.0001%207.65609C11.292%207.65609%2012.3438%208.70702%2012.3438%209.99984C12.3438%2011.2917%2011.292%2012.3436%2010.0001%2012.3436ZM14.531%205.96859C14.531%206.24456%2014.3073%206.46828%2014.0313%206.46828C13.7554%206.46828%2013.5317%206.24456%2013.5317%205.96859C13.5317%205.69262%2013.7554%205.4689%2014.0313%205.4689C14.3073%205.4689%2014.531%205.69262%2014.531%205.96859Z'%20fill='%239D097C'/%3e%3c/svg%3e"
+            alt="instagram">
+        </div>
+      </div>
+      <div class="footer--right flex">
+        <ul class="footer--right-list flex">
+          <li>О портале</li>
+          <li>
+            <a href="#">Продукты КМФ</a>
+          </li>
+          <li>
+            <a href="#">Новости / Анонсы</a>
+          </li>
+          <li>
+            <a href="#">О программе KMF Isker Hanymy</a>
+          </li>
+          <li>
+            <a href="#">Истории успеха</a>
+          </li>
+        </ul>
+        <ul class="footer--right-list flex">
+          <li>Обучение</li>
+          <li>
+            <a href="#">Наставничество</a>
+          </li>
+          <li>
+            <a href="#">Саморазвитие</a>
+          </li>
+          <li>
+            <a href="#">Здоровье</a>
+          </li>
+          <li>
+            <a href="#">Полезные советы</a>
+          </li>
+        </ul>
+        <ul class="footer--right-list flex">
+          <li>Бизнес</li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Made in KZ</a>
+          </li>
+          <li>
+            <a href="#">Я социальный предприниматель</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- <script
+    nomodule="">!function () { var e = document, t = e.createElement("script"); if (!("noModule" in t) && "onbeforeload" in t) { var n = !1; e.addEventListener("beforeload", (function (e) { if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n) return; e.preventDefault() }), !0), t.type = "module", t.src = ".", e.head.appendChild(t), t.remove() } }();</script> -->
+  <!-- <script nomodule="" crossorigin="" id="vite-legacy-polyfill" src="js/polyfills-legacy-C2sq3z7e.js"></script>
+  <script nomodule="" crossorigin="" id="vite-legacy-entry" -->
+  data-src="./assets/index-legacy-Bsrx15-k.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+  </script>
+  <script src="js/language.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+
+</body>
+
+</html>
