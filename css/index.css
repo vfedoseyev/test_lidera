@@ -370,6 +370,8 @@ body {
 }
 
 .mobile-slider .swiper-wrapper {
+    overflow: auto;
+    scrollbar-width: none;
     scrollbar-width: none;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
